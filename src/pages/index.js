@@ -7,7 +7,9 @@ const Index = () => (
       <title>The ZEIT & Cloudflare Dragon</title>
     </Helmet>
     <h1>The ZEIT & Cloudflare Dragon</h1>
-    <img src="https://media.giphy.com/media/3owvJXPRVdfvynuxZS/giphy.gif" />
+    <a href="https://giphy.com/gifs/gameofthrones-game-of-thrones-hbo-3owvJXPRVdfvynuxZS">
+      <img src="https://media.giphy.com/media/3owvJXPRVdfvynuxZS/giphy.gif" />
+    </a>
   </main>
 );
 
