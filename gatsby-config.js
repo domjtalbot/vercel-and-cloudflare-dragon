@@ -4,14 +4,14 @@ module.exports = {
     {
       options: {
         icon: 'src/images/gatsby-icon.png',
-        name: 'Gatsby + Node.js (TypeScript) API',
-        short_name: 'Gatbsy + Node.js (TypeScript)',
+        name: 'The Zeit & CloudFlare Dragon',
+        short_name: 'The Zeit & CloudFlare Dragon',
         start_url: '/',
       },
       resolve: `gatsby-plugin-manifest`,
     },
   ],
   siteMetadata: {
-    title: 'Gatsby + Node.js (TypeScript) API',
+    title: 'The Zeit & CloudFlare Dragon',
   },
 };
