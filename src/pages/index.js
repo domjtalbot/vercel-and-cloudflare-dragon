@@ -1,26 +1,16 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Helmet } from 'react-helmet';
-import '../styles/index.css';
 
-function Index() {
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    async function getDate() {
-      const res = await fetch('/api/date');
-      const newDate = await res.text();
-      setDate(newDate);
-    }
-    getDate();
-  }, []);
-  return (
-    <main>
-      <Helmet>
-        <title>Dragon</title>
-      </Helmet>
-      <h1>Dragon</h1>
+const Index = () => (
+  <main>
+    <Helmet>
+      <title>The ZEIT & Cloudflare Dragon</title>
+    </Helmet>
+    <h1>The ZEIT & Cloudflare Dragon</h1>
+    <a href="https://giphy.com/gifs/gameofthrones-game-of-thrones-hbo-3owvJXPRVdfvynuxZS">
       <img src="https://media.giphy.com/media/3owvJXPRVdfvynuxZS/giphy.gif" />
-    </main>
-  );
-}
+    </a>
+  </main>
+);
 
 export default Index;
