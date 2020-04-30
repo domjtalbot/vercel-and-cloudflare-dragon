@@ -21,19 +21,7 @@ export default function HTML(props) {
           dangerouslySetInnerHTML={{ __html: props.body }}
         />
         {props.postBodyComponents}
-        <script
-          key={`__fathom`}
-          id="__fathom"
-          src="https://cdn.usefathom.com/3.js"
-          site="ALWPPAHB"
-        />
-        <script
-          key={`__analytics`}
-          id="__analytics"
-          dangerouslySetInnerHTML={{
-            __html: `window.fathom || document.write('<script src="https://swordfish.asongofzandc.xyz/core.js" />')`,
-          }}
-        />
+        <script async defer data-domain="dragon.asongofzandc.xyz" src="https://varys.asongofzandc.xyz/js/index.js"></script>
       </body>
     </html>
   )
