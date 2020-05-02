@@ -11,7 +11,7 @@
   "devDependencies": {
     "@now/node": "^1.3.0"
   },
-  "name": "gatsby",
+  "name": "vercel-and-cloudflare-dragon",
   "private": true,
   "scripts": {
     "dev": "gatsby develop",
