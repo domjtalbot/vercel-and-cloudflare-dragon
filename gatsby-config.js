@@ -4,14 +4,14 @@ module.exports = {
     {
       options: {
         icon: 'src/images/gatsby-icon.png',
-        name: 'The Zeit & CloudFlare Dragon',
-        short_name: 'The Zeit & CloudFlare Dragon',
+        name: 'Vercel and Cloudflare Dragon',
+        short_name: 'Vercel and Cloudflare Dragon',
         start_url: '/',
       },
       resolve: `gatsby-plugin-manifest`,
     },
   ],
   siteMetadata: {
-    title: 'The Zeit & CloudFlare Dragon',
+    title: 'Vercel and Cloudflare Dragon',
   },
 };
